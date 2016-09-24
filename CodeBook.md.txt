@@ -1,0 +1,24 @@
+Initial data files:
+	yTest - Activity data
+	yTrain - Activity data
+	xTest - Testing data
+	xTrain - Training data
+	sTest - Subject data
+	sTrain - Subject data
+	features - List of variable names
+	actLevels - Names of the activities
+
+Requirement two: Extracts only the measurements on the mean and standard deviation for each measurement. This means that all the information left in the data set refers to the mean or standard deviation.
+
+Requirement three: Uses descriptive activity names to name the activities in the data set. The activity data in files yTest and yTrain is numeric. We use the actLevels file to translate those numeric values into qualitative values.
+
+Finally, the variables are given easily understood names. I do not feel that mean and std need to be corrected as those are commonly understood to indicate the mean and standard deviation.
+Corrections:
+	A leading t in the original represents time
+	A leading f in the original represents frequency
+	Acc present anywhere represents accelerometer
+	Gyro present anywhere represents gyroscope
+	Mag present anywhere represents magnitude
+	Bodybody present anywhere represents body
+
+The final data set is colloquially called clean ’n ready, as it is now tidied and ready for further analysis.
